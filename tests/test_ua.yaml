@@ -1,5 +1,17 @@
 test_cases:
 
+  - user_agent_string: 'atc/1.0 watchOS/5.1.3 model/Watch3,4 hwp/t8004 build/16S535 (6; dt:156)'
+    family: 'Apple Watch App'
+    major: '3'
+    minor: '4'
+    patch: 
+
+  - user_agent_string: 'atc/1.0 watchOS/5.2 model/Watch4,4 hwp/t8006 build/16T225 (6; dt:193)'
+    family: 'Apple Watch App'
+    major: '4'
+    minor: '4'
+    patch: 
+
   - user_agent_string: 'Mozilla/5.0 (Windows; U; en-US) AppleWebKit/531.9 (KHTML, like Gecko) AdobeAIR/2.5.1'
     family: 'AdobeAIR'
     major: '2'
@@ -301,7 +313,7 @@ test_cases:
     patch:
 
   - user_agent_string: 'Twitterbot/1.0'
-    family: 'TwitterBot'
+    family: 'Twitterbot'
     major: '1'
     minor: '0'
     patch:
@@ -756,7 +768,7 @@ test_cases:
     minor: '53'
     patch:
 
-  - user_agent_string: 'User agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.20 Safari/537.36 OPR/15.0.1147.18 (Edition Next)'
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.20 Safari/537.36 OPR/15.0.1147.18 (Edition Next)'
     family: 'Opera'
     major: '15'
     minor: '0'
@@ -6608,6 +6620,13 @@ test_cases:
     patch: '0'
     patch_minor: '14'
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 [FBAN/FBIOS;FBAV/194.0.0.38.99;FBBV/127868476;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iOS;FBSV/11.4.1;FBSS/2;FBCR/OrangeBotswana;FBID/phone;FBLC/en_GB;FBOP/5;FBRV/128807018]'
+    family: 'Facebook'
+    major: '194'
+    minor: '0'
+    patch: '0'
+    patch_minor: '38'
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B350 [Pinterest/iOS]'
     family: 'Pinterest'
     major:
@@ -6879,6 +6898,12 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/8.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Microsoft Outlook 16.0.6366; ms-office; MSOffice 16)'
+    family: 'Outlook'
+    major: '2016'
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; ms-office; MSOffice 16)'
     family: 'Outlook'
     major: '2016'
     minor:
@@ -7645,6 +7670,61 @@ test_cases:
     minor: '8'
     patch: '1'
 
+  - user_agent_string: 'akka-http/10.0.10'
+    family: 'akka-http'
+    major: '10'
+    minor: '0'
+    patch: '10'
+
+  - user_agent_string: 'Python/3.6 aiohttp/3.5.4'
+    family: 'Python/3.6 aiohttp'
+    major: '3'
+    minor: '5'
+    patch: '4'
+
+  - user_agent_string: 'unirest-java/1.3.11'
+    family: 'unirest-java'
+    major: '1'
+    minor: '3'
+    patch: '11'
+
+  - user_agent_string: 'axios/0.18.0'
+    family: 'axios'
+    major: '0'
+    minor: '18'
+    patch: '0'
+
+  - user_agent_string: 'got/9.6.0 (https://github.com/sindresorhus/got)'
+    family: 'got'
+    major: '9'
+    minor: '6'
+    patch: '0'
+
+  - user_agent_string: 'S3Gof3r'
+    family: 'S3Gof3r'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'rusoto/0.36.0 rust/1.35.0 linux'
+    family: 'rusoto'
+    major: '0'
+    minor: '36'
+    patch: '0'
+
+  - user_agent_string: 'ibm-cos-sdk-java/2.3.0 Linux/4.9.0-8-amd64 Java_HotSpot(TM)_64-Bit_Server_VM/9.0.4+11/9.0.4'
+    family: 'ibm-cos-sdk-java'
+    major: '2'
+    minor: '3'
+    patch: '0'
+
+  - user_agent_string: 'aws-sdk-dotnet-45/3.3.11.0 aws-sdk-dotnet-core/3.3.17.10 .NET_Runtime/4.0 .NET_Framework/4.0 OS/Microsoft_Windows_NT_6.2.9200.0 ClientSync'
+    family: 'aws-sdk-dotnet-45'
+    major: '3'
+    minor: '3'
+    patch: '11'
+    patch_minor: '0'
+
   - user_agent_string: 'Boto/2.48.0 Python/2.7.14 Linux/4.2.0-41-generic'
     family: 'Boto'
     major: '2'
@@ -7844,3 +7924,23 @@ test_cases:
     major: '2'
     minor: '10'
     patch: '8'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3763.0 Safari/537.36 Edg/75.0.131.0'
+    family: 'Edge'
+    major: '75'
+    minor: '0'
+    patch: '131'
+    patch_minor: '0'
+
+  - user_agent_string: 'Snapchat/10.29.1.0 (iPhone10,1; iOS 11.2; gzip)'
+    family: 'Snapchat'
+    major: '10'
+    minor: '29'
+    patch: '1'
+
+  - user_agent_string: 'OgScrper/1.0.0'
+    family: 'OgScrper'
+    major: '1'
+    minor: '0'
+    patch: '0'
+    

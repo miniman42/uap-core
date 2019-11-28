@@ -1,5 +1,26 @@
 test_cases:
 
+  - user_agent_string: 'atc/1.0 watchOS/5.1.3 model/Watch3,4 hwp/t8004 build/16S535 (6; dt:156)'
+    family: 'WatchOS'
+    major: '5'
+    minor: '1'
+    patch: '3'
+    patch_minor:
+
+  - user_agent_string: 'atc/1.0 watchOS/5.2 model/Watch4,4 hwp/t8006 build/16T225 (6; dt:193)'
+    family: 'WatchOS'
+    major: '5'
+    minor: '2'
+    patch: 
+    patch_minor:
+
+  - user_agent_string: '(null)/(null) watchOS/5.1.1 model/Watch3,3 hwp/t8004 build/16R600 (6; dt:155)'
+    family: 'WatchOS'
+    major: '5'
+    minor: '1'
+    patch: '1'
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.1.0-80) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true'
     family: 'Android'
     major:
@@ -228,6 +249,27 @@ test_cases:
     family: 'Firefox OS'
     major:
     minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Mobile; rv:37.0) Gecko/37.0 Firefox/37.0 KaiOS/1.0'
+    family: 'KaiOS'
+    major: '1'
+    minor: '0'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Mobile; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5.1'
+    family: 'KaiOS'
+    major: '2'
+    minor: '5'
+    patch: '1'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Mobile; rv:68.0) KAIOS/3.0'
+    family: 'KaiOS'
+    major: '3'
+    minor: '0'
     patch:
     patch_minor:
 
@@ -2653,6 +2695,27 @@ test_cases:
 
   - user_agent_string: 'curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.19.1 Basic ECC zlib/1.2.3 libidn/1.18 libssh2/1.4.2'
     family: 'Red Hat'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'ibm-cos-sdk-java/2.3.0 Linux/4.9.0-8-amd64 Java_HotSpot(TM)_64-Bit_Server_VM/9.0.4+11/9.0.4'
+    family: 'Linux'
+    major: '4'
+    minor: '9'
+    patch: '0'
+    patch_minor:
+
+  - user_agent_string: 'aws-sdk-dotnet-45/3.3.11.0 aws-sdk-dotnet-core/3.3.17.10 .NET_Runtime/4.0 .NET_Framework/4.0 OS/Microsoft_Windows_NT_6.2.9200.0 ClientSync'
+    family: 'Windows'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'rusoto/0.36.0 rust/1.35.0 linux'
+    family: 'Linux'
     major:
     minor:
     patch:
